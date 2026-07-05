@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=New+Tegomin&family=Noto+Sans+JP:wght@100..900&family=Yuji+Mai&display=swap');
+
+.card {
+  font-family: "Noto Sans JP", sans-serif;
+  padding: 16px;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  background: #ffffff;
+  width: 180px;
+  transition: box-shadow 0.2s;  /* ← この1行を追加（変化をなめらかに）*/
+  background-color:#ffffff;
+}
+
+.name {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 8px 0;
+}
+
+.price {
+  font-family: "Noto Sans JP", sans-serif;
+  color: #A0522D;
+  font-size: 16px;
+  margin: 0 0 4px 0;
+}
+
+.stock {
+  font-family: "Noto Sans JP", sans-serif;
+  color: #666666;
+  font-size: 16px;
+  margin: 0;
+}
+
+
+/* 在庫切れの場合、太字になる。 */
+.bold {
+  font-weight: bold;
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);  /* 影を付ける */
+}
+
+/* ボタンの色と文字色を変更。 */
+.button {
+  font-family: "Noto Sans JP", sans-serif;
+  margin-top: 20px;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 20px;
+  background: #44b68e;
+  color: #ffffff;
+  cursor: pointer;
+  cursor:pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* ボタンが少し下に動く */
+.button:hover {
+  transform: translateY(4px);
+  box-shadow: none;
+}
+
+/*.button:hover {
+  background: #1d4ed8;   乗せると少し濃い青に 
+}*/
+
+#basic .bold-text {
+    font-weight: bold;
+}
+
+/* フォント変更 https://zenn.dev/eaeaeaea0503/articles/95c81d28fa54b0 */

@@ -1,34 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=New+Tegomin&family=Noto+Sans+JP:wght@100..900&family=Yuji+Mai&display=swap');
-
-.list {
-  display: flex;        /* 横並びにする */
-  flex-wrap: wrap;      /* はみ出たら折り返す */
-  gap: 16px;            /* カードどうしのすき間 */
-  padding: 16px;
-  font-family: "Archivo Black", sans-serif;
+/* src/App.module.css （中身を置きかえます） */
+.layout {
+  display: flex;
+  min-height: 100vh;
+  background: #f5f6f8;
 }
-
-/* 背景色変更 */
-.body {
-  background-color: #F9F9F7;
+.main {
+  flex: 1;
+  padding: 24px;
 }
-
-.news {
-  font-family: "Noto Sans JP", sans-serif;
-  padding: 16px;
-  border: 1px solid #dddddd;
-  border-radius: 8px;
-  background: #ffffff;
-  width: 1000px;
-  background-color:#ffffff;
-  text-align: center;
-  margin: 0 auto; 
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 24px;
 }
-
-.font {
-  font-family: "Noto Sans JP", sans-serif;
-  background: #ffffff;
-  background-color:#ffffff;
-  text-align: center;
-  margin: 0 auto; 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
 }
