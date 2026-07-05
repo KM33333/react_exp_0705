@@ -7,7 +7,7 @@ import PageTitle from "./components/PageTitle";
 import Toolbar from "./components/Toolbar";
 import SearchBar from "./components/SearchBar";
 import ProductCard from "./components/ProductCard";
-import styles from "./App.module.css";
+import styles from "./APP.module.css";
 
 const products = [
   { id: 1, name: "Tシャツ", price: 2980, stock: 12, category: "アパレル" },
